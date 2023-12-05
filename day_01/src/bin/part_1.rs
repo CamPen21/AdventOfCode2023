@@ -19,7 +19,7 @@ pub fn trebuchet(input: Vec<&str>) -> Result<u32, ()> {
 }
 
 fn main() -> Result<(), Box<dyn Error + 'static>>{
-    let input = include_str!("./part_1_input.txt");
+    let input = include_str!("./day_1_input.txt");
     let input = input.lines();
     let res = trebuchet(input.collect());
     match res {
